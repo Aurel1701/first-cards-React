@@ -11,3 +11,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.articolo {
+  padding: 10px;
+}
+
+.card {
+  width: 200px;
+  background-color: rebeccapurple;
+  border-radius: 10px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+
+}

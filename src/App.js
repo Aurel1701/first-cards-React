@@ -1,25 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
-
+/* import Titolo from './Titolo'; */
+import Product from "./Product";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h2 style={{ textAlign: "center" }}>My first cards</h2>
+      <div class="cards">
+        <Product />
+        <Product />
+        <Product />
+      </div>
+      {/*  <Titolo /> */}
     </div>
   );
-}
+};
 
 export default App;
